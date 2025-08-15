@@ -45,17 +45,32 @@
       padding: 3rem;
       text-align: left;
     }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .block {
+      padding: 10px;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1 padding="30px">
-      Conquerors of the World
-    </h1>
-        <a href="alphaversion.html">Alpha Version</a>
-        <a href="betaversion.html">Upcoming Beta version</a>
-        <a href="about.html">About Us</a>
-        <a href="gamerules.html">Game Rules</a>
+    <div class="container">
+      <div class="blok">
+        <h1 padding="30px">
+          Conquerors of the World
+        </h1>
+      </div>
+    </div>
+      <div class="container">
+        <div class="blok">
+          <a href="alphaversion.html">Alpha Version</a>
+          <a href="betaversion.html">Upcoming Beta version</a>
+          <a href="about.html">About Us</a>
+          <a href="gamerules.html">Game Rules</a>
+        </div>
+      </div>
   </header>
 <main>
   <section class="section">
