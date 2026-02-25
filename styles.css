@@ -4,22 +4,22 @@
   }
 }
 body {
-      margin: 0;
-      font-family: sans-serif;
-    }
-    header, footer {
-      padding: 1rem;
-    }
-    main {
-      margin-top: 0;
-    }
-    .section {
-      padding: 3rem;
-      max-width: 800px;
-      margin: 0 auto;
-      text-align: center;
-    }
-    .buttons {
+  margin: 0;
+  font-family: sans-serif;
+}
+header, footer {
+  padding: 1rem;
+}
+main {
+  margin-top: 0;
+}
+.section {
+  padding: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.buttons {
       display: flex;
       justify-content: center;
       gap: 1rem;
