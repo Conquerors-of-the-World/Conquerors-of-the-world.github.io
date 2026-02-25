@@ -1,0 +1,50 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: deepseablue;
+  }
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+header, footer {
+  padding: 1rem;
+}
+main {
+  margin-top: 0;
+}
+.section {
+  padding: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .buttons a {
+      padding: 0.75rem 1.5rem;
+      background-color: #0073aa;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .image-full {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .highlight-section {
+      padding: 3rem;
+      text-align: left;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .block {
+      padding: 30px;
+    }
