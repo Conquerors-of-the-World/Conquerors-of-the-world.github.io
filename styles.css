@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #00004d;
+    background-color: #002;
     color: #fff;
   }
   a {
@@ -54,6 +54,8 @@ img {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
 }
 .block {
   padding: 2%;
