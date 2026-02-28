@@ -6,6 +6,10 @@
   a {
     color: #0ff;
   }
+  button {
+    color: #fff;
+    background-color: #0d1117;
+  }
 }
 body {
   margin: 0;
@@ -59,10 +63,6 @@ img {
 }
 .block {
   padding: 2%;
-}
-.image-full {
-  width: 100vw;
-  height: auto;
 }
 .image-small {
   width: 60%;
