@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <link rel="stylesheet" href="styles/styles.css">
   </head>
@@ -21,7 +21,31 @@
     </header>
     <main>
       <form action="mailto:2023080119@edu.odulphus.nl">
-        
+        <fieldset>
+          <legend>Personal information</legend>
+          <label for="name">
+            Name:
+            <input type="text" id="name" name="name" required>
+          </label>
+          <label for="email">
+            Email address:
+            <input type="email" id="email" name="email" required>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Feedback</legend>
+          <label for="feedback-type">
+            <select id="feedback-type" name="feedback-type">
+              <option value=" "></option>
+              <option value="suggestion">Suggestion</option>
+              <option value="bug">Bug</option>
+              <option value="compliment">Compliment</option>
+            </select>
+          </label>
+          <label for="feedback">
+            <textarea name="feedback" rows="4" cols="40" id="feedback"></textarea>
+          </label>
+        </fieldset>
         <input type="submit">
       </form>
     </main>
