@@ -51,12 +51,19 @@ img {
   display: block;
 }
 .highlight-section {
+
   padding: 2%;
+
   text-align: left;
 }
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.image-full {
+  width: 100vw;
+  height: auto;
   justify-content: center;
   align-content: center;
 }
