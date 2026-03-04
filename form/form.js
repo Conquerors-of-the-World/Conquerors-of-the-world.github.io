@@ -9,14 +9,14 @@ app.post('/api/submit', (req, res) => {
   let existingData = [];
 
   try {
-    const fileData = fs.readFileSync('data.json', 'utf8');
+    const fileData = fs.readFileSync('feedback.json', 'utf8');
     existingData = JSON.parse(fileData);
   } catch (err) {
     // File doesn't exist or is empty
   }
 
   existingData.push(newData);
-  fs.writeFileSync('data.json', JSON.stringify(existingData, null, 2));
+  fs.writeFileSync('feedback.json', JSON.stringify(existingData, null, 2));
   res.json({ success: true });
 });
 
