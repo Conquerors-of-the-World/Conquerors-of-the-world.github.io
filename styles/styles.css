@@ -25,6 +25,9 @@ header, footer {
 main {
   margin-top: 0;
 }
+body {
+  margin-left: 3vw;
+}
 .section {
   padding: 3rem;
   max-width: 800px;
