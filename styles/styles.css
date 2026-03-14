@@ -49,6 +49,10 @@ img {
   margin: auto;
   height: auto;
 }
+.title {
+  display: flex;
+  align-items: center;
+}
 .buttons {
   display: flex;
   justify-content: center;
