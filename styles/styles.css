@@ -31,14 +31,15 @@ body {
 header, footer {
   padding: 1rem;
 }
+footer {
+  padding-left: 3vw;
+}
 main {
   margin-top: 0;
 }
-section {
-  margin-left: 3vw;
-}
 .section {
   padding: 3rem;
+  padding-left: 3vw;
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
@@ -84,6 +85,7 @@ img {
   padding: 2%;
   text-align: left;
   background-color: #cecece;
+  padding-left: 3vw;
 }
 .container {
   display: grid;
