@@ -28,6 +28,10 @@
     background-color: #cecece;
   }
 }
+#rules {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5%;
+}
 label {
   display: block;
   margin: 1%;
