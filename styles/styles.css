@@ -93,11 +93,6 @@ img {
 .favicon {
   width: 2vw;
 }
-.image-full {
-  width: 100%;
-  height: auto;
-  display: block;
-}
 .highlight-section {
   padding: 2%;
   text-align: left;
@@ -112,6 +107,7 @@ header {
   height: auto;
   justify-content: center;
   align-content: center;
+  display: block;
 }
 .block {
   padding: 2%;
